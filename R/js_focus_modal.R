@@ -1,0 +1,1 @@
+js_focus_modal = HTML("$('body').on('shown.bs.modal', (x) => $(x.target).find('input[type=\"text\"]:first').focus())")
